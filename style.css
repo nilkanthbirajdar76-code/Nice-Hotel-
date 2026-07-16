@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f7fa;
+}
+
+/* Header */
+header{
+    background:#004080;
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+
+.Desgin{
+    height:450px;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("https://tse3.mm.bing.net/th/id/OIP.61FcUJLCFoGQhHsHWw8XEAHaE8?pid=Api&P=0&h=180");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:45px;
+}
+
+.hero p{
+    margin:15px;
+    font-size:20px;
+}
+
+.btn{
+    background:orange;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+    font-size:18px;
+}
+
+.btn:hover{
+    background:red;
+}
+
+/* About */
+.about{
+    padding:50px;
+    text-align:center;
+}
+
+.about h2{
+    color:#004080;
+    margin-bottom:20px;
+}
+
+/* Form */
+.form-section{
+    background:white;
+    width:500px;
+    margin:40px auto;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.form-section h2{
+    text-align:center;
+    color:#004080;
+    margin-bottom:20px;
+}
+
+form input,
+form select,
+form textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    background:#004080;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0066cc;
+}
+
+/* Footer */
+footer{
+    background:#004080;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}

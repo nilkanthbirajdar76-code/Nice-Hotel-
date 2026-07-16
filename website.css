@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#0d0d0d;
+}
+
+.hero{
+    height:100vh;
+    background:url('https://images.unsplash.com/photo-1566073771259-6a8506099945')
+    center/cover no-repeat;
+    position:relative;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.75);
+}
+
+.navbar{
+    position:absolute;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    z-index:10;
+}
+
+.logo{
+    color:#fff;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.navbar ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+.navbar a{
+    color:#ddd;
+    text-decoration:none;
+}
+
+.active{
+    color:#c69b5a !important;
+}
+
+.right{
+    color:#fff;
+}
+
+.content{
+    position:relative;
+    z-index:10;
+    text-align:center;
+    color:#fff;
+    top:25%;
+}
+
+.content h1{
+    font-size:65px;
+    margin:20px 0;
+    animation:fade 1s ease;
+}
+
+.buttons button{
+    padding:15px 30px;
+    margin:10px;
+    border:none;
+    cursor:pointer;
+}
+
+.gold{
+    background:#c69b5a;
+    color:#fff;
+}
+
+.white{
+    background:transparent;
+    border:1px solid #fff !important;
+    color:#fff;
+}
+
+.booking{
+    position:absolute;
+    bottom:50px;
+    left:50%;
+    transform:translateX(-50%);
+    background:#1b1b1b;
+    width:80%;
+    padding:25px;
+    border-radius:8px;
+    display:flex;
+    gap:20px;
+    z-index:10;
+}
+
+.booking div{
+    flex:1;
+}
+
+.booking label{
+    display:block;
+    color:#fff;
+    margin-bottom:10px;
+}
+
+.booking input,
+.booking select{
+    width:100%;
+    padding:12px;
+}
+
+.booking button{
+    background:#c69b5a;
+    color:#fff;
+    border:none;
+    padding:12px 30px;
+}
+
+@keyframes fade{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
